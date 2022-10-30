@@ -1,0 +1,22 @@
+.clients {
+  display: flex;
+  column-gap: 30px;
+}
+
+.clients__link {
+  width: 170px;
+  height: 92px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--icon-primary-color);
+  border-radius: 4px;
+  fill: var(--icon-primary-color);
+  transition: fill var(--transition-dur-and-func), border-color var(--transition-dur-and-func);
+
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+    border-color: var(--accent-color);
+  }
+}
