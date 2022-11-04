@@ -5,7 +5,7 @@
 
 .form-title {
   font-size: 20px;
-  line-height: 1.15;
+  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 12px;
@@ -90,8 +90,8 @@
   margin-top: 20px;
   margin-bottom: 30px;
 
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: 12px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
 
   color: var(--second-text-color);
@@ -147,4 +147,14 @@
 
 .policy-link {
   color: var(--accent-color);
+}
+
+@media screen and (min-width: 1200px) {
+  .form-title {
+    line-height: 1.15;
+  }
+  .modal-field-checkbox {
+    font-size: 14px;
+    line-height: 1.71;
+  }
 }

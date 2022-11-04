@@ -1,3 +1,9 @@
+@media screen and (max-width: 1199) {
+  .visually-hidden__features {
+    display: none;
+  }
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;

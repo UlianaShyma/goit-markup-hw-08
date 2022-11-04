@@ -1,11 +1,10 @@
 .filter-list {
   display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
-
-  .filter-list__item:not(:last-child) {
-    margin-right: 8px;
-  }
+  justify-content: left;
+  flex-wrap: wrap;
+  column-gap: 8px;
+  row-gap: 15px;
+  margin-bottom: 40px;
 
   .btn-primary {
     color: var(--text-white-color);
@@ -44,4 +43,18 @@
 
 .filter-list__btn-all {
   padding: 6px 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .filter-list {
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1199px) {
+  .filter-list {
+    margin-bottom: 50px;
+  }
 }

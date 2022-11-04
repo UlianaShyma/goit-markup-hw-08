@@ -1,8 +1,14 @@
+@media screen and (max-width: 1199px) {
+  .activity-section {
+    display: none;
+  }
+}
+
 .activity {
   display: flex;
   column-gap: 30px;
 }
- 
+
 .activity__thumb {
   position: relative;
 }

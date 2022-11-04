@@ -1,15 +1,25 @@
-.footer__media {
-  margin-right: 93px;
-}
-
 .media-list__link-footer {
   fill: var(--text-white-color);
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   transition: background-color var(--transition-dur-and-func);
+  margin-bottom: 60px;
 
   &:hover,
   &:focus {
     background-color: var(--accent-color);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer__media {
+    margin-right: 89px;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__media {
+    margin-right: 89px;
   }
 }

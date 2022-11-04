@@ -9,3 +9,9 @@
 
   color: var(--text-white-color);
 }
+
+@media screen and (min-width: 1200px) {
+  .footer__title {
+    text-align: left;
+}
+}
