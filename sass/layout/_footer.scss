@@ -8,11 +8,15 @@
 .footer__container {
   text-align: center;
 }
- 
+
+.footer__tablet-container {
+  margin-bottom: 60px;
+}
+
 @media screen and (min-width: 768px) {
   .footer__tablet-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: baseline;
   }
 }
